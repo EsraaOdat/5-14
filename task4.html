@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: solid gray 20px;
+  border-top: solid gray 20px;
+  justify-content: space-around;
+}
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  background-color: blue;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+
+background-color:blue ;
+width: 180px;
+
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 1;
+  background-color: cadetblue;
+  width: 80px;
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 3/ span 1;
+  background-color: yellow;
+  width: 80px;
+
+
+}
+
+.item4 {
+  grid-column: 4;
+  grid-row: 4/ span 1;
+  background-color: orange;
+  width: 60px;
+
+
+
+}
+
+.item5 {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+  background-color: yellow;
+  width: 80px;
+
+}
+.item6 {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  background-color: yellow;
+  width: 80px;
+
+
+}
+.item7 {
+  grid-column: 3 / span 1;
+  grid-row: 2;
+  background-color: yellow;
+  width: 80px;
+
+
+}
+
+
+.item8 {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  width: 180px;
+
+}
+
+.item9 {
+  grid-column: 1 / span 1;
+  grid-row: 4;
+  background-color: orange;
+  width: 60px;
+
+
+}
+.item10 {
+  grid-column: 2 / span 1;
+  grid-row: 4;
+  background-color: orange;
+  width: 60px;
+}
+
+.item11 {
+  grid-column: 3 / span 1;
+  grid-row: 4;
+  background-color: orange;
+  width: 60px;
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="grid-item item1">1</div>
+  <div class="grid-item item2">2</div>
+  <br>
+  <div class="grid-item item3">3</div>  
+  <div class="grid-item item4">4</div>
+  <div class="grid-item item5">5</div>
+<br>
+  <div class="grid-item item6">6</div>
+  <div class="grid-item item7">7</div>
+  <br>
+ <div class="grid-item item8">8</div>
+<div class="grid-item item9">9</div>
+<div class="grid-item item10">10</div>
+<div class="grid-item item11">11</div>
+
+
+</div>
+
+
+</body>
+</html>
+
+
